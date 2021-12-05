@@ -8,7 +8,7 @@ MulTFBS：A deep learning framework with multi-features integrated for predictin
  * gensim=3.8.3
 ## Data preparation
 After downloading the data according to the link in the paper, the data should be trimmed first to ensure equal length of the data, and then the data should be placed in the `PBMdatas` directory for the convenience of subsequent operation and experiment.
- *  example: 
+ *  Example: 
  ```
  PBMdatas/TF_1_Ar_pTH1739_HK/TF_1_Ar_pTH1739_HK
  ```
@@ -18,7 +18,7 @@ After downloading the data according to the link in the paper, the data should b
  bash encode.sh
  ```
 Run `word2vec_skipgram.py` to produce the word2vec word vector. The word vector is then indexed in `MulTFBS_run.py` to the word2vec features of the sequence.Note that you need to convert the data to `> `, and then place it in the `PBMdatas` directory.
-*  example: 
+*  Example: 
  ```
  PBMdatas/TF_1_Ar_pTH1739_HK/TF_1_Ar_pTH1739_HK_1
  ```
