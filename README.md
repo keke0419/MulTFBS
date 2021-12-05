@@ -15,7 +15,7 @@ After downloading the data according to the link in the paper, the data should b
 `encode.sh` is used to encode the sequence and transform it into one-hot and shape features.
  * Usage: 
  ```
- bash encode.sh`
+ bash encode.sh
  ```
 Run `word2vec_skipgram.py` to produce the word2vec word vector. The word vector is then indexed in `MulTFBS_run.py` to the word2vec features of the sequence.
 
