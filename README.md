@@ -17,7 +17,7 @@ After downloading the data according to the link in the paper, the data should b
  ```
  bash encode.sh
  ```
-Run `word2vec_skipgram.py` to produce the word2vec word vector. The word vector is then indexed in `MulTFBS_run.py` to the word2vec features of the sequence.Note that you need to convert the data to `> `, and then place it in the `PBMdatas` directory.
+Run `word2vec_skipgram.py` to produce the word2vec word vector. The word vector is then indexed in `MulTFBS_run.py` to the word2vec features of the sequence. Note that you need to convert the data to `> `, and then place it in the `PBMdatas` directory.
 *  Example: 
  ```
  PBMdatas/TF_1_Ar_pTH1739_HK/TF_1_Ar_pTH1739_HK_1
