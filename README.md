@@ -11,6 +11,8 @@ After downloading the data according to the link in the paper, the data should b
  * ` example: PBMdatas/TF_1_Ar_pTH1739_HK` 
 
 `encode.sh` is used to encode the sequence and transform it into one-hot and shape features.
-```
- * Usage: bash encode.sh
-```
+ * ` Usage: bash encode.sh`
+
+
+## Train and test MulTFBS
+Run ` MulTFBS_run.py` .
