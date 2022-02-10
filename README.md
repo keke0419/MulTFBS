@@ -9,7 +9,7 @@ MulTFBS: A deep learning framework with multi-channels for predicting transcript
  * Matplotlib=3.3.2
  * H5py,Hyperopt,Sklearn,Nltk
 ## Data preparation
-The PBMdata used in this work can be downloaded from 
+The PBMdata can be downloaded from 
 https://bitbucket.org/wenxiu/sequence-shape/get/2159e4ef25be.zip 
 After that the data should be trimmed first to ensure equal length of the data, and then the data should be placed in the `PBMdatas` directory for the convenience of subsequent operation and experiment.
  *  Example: 
