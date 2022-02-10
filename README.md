@@ -1,7 +1,7 @@
 # MulTFBS
 MulTFBS: A deep learning framework with multi-channels for predicting transcription factor binding sites
 ## Requirements
- * Python=3.6,recommend installing Anaconda3
+ * Python=3.6, recommend installing Anaconda3
  * TensorFlow=1.2
  * Keras=2.1.3
  * Biopython=1.79
