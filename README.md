@@ -21,12 +21,12 @@ After that the data should be trimmed first to ensure equal length of the data, 
  ```
  bash encode.sh
  ```
-Run `word2vec_skipgram.py` to produce the Word2vec word vector. The word vector is then indexed in `MulTFBS_run.py` to the Word2vec features of the sequence. Note that before doing this you need to convert 66 original data to FASTA format for subsequent reading of the base sequence, and then place it in the `PBMdatas` directory.
+Run `word2vec_skipgram.py` to produce the Word2vec word vector. The word vector is then indexed in `MulTFBS_run.py` to the Word2vec features of the sequence. Note that before doing this you need to convert 66 original data to FASTA format for subsequent reading of the base sequence, and then place it in the `PBMdatas` directory.In the meantime, you need to generate the same form of integrated corpus to learn word vectors.
 *  Example: 
  ```
  PBMdatas/TF_1_Ar_pTH1739_HK/TF_1_Ar_pTH1739_HK_1
  ```
-In the meantime, you need to generate the same form of integrated corpus to learn word vectors.
+
 ## Train and test MulTFBS
 Run the main code ` MulTFBS_run.py` to cross-validate the model at 5-fold, with 4-fold for training and 1-fold for testing.
 * You can run different data by modifying the path of the input. 
