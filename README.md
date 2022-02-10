@@ -7,7 +7,7 @@ MulTFBS: A deep learning framework with multi-channels for predicting transcript
  * Biopython=1.79
  * Gensim=3.8.3
  * Matplotlib=3.3.2
- * H5py,Hyperopt,Sklearn,Nltk
+ * H5py, Hyperopt, Sklearn, Nltk
 ## Data preparation
 The PBMdata can be downloaded from 
 https://bitbucket.org/wenxiu/sequence-shape/get/2159e4ef25be.zip.
